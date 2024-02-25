@@ -30,7 +30,7 @@ function addLinha() {
             return true
     }
     } if (inputNomeAtividade.value.toUpperCase() != inputNomeArray) {
-        inputNomeArray.push(inputNomeAtividade.value.toUpperCase())
+        inputNomeArray.push(inputNomeAtividade.value.toUpperCase());
         let linha = '<tr>';
         linha += `<td>${inputNomeAtividade.value}</td>`;
         linha += `<td>${inputNotaArray[inputNotaArray.length - 1]}</td>`;
