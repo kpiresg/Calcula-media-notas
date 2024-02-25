@@ -34,7 +34,7 @@ function addLinha() {
         let linha = '<tr>';
         linha += `<td>${inputNomeAtividade.value}</td>`;
         linha += `<td>${inputNotaArray[inputNotaArray.length - 1]}</td>`;
-        linha += `<td>${inputNotaAtividade.value >= notaMedia ? imgAprovado : imgReprovado }</td>`;
+        linha += `<td>${inputNotaArray[inputNotaArray.length - 1] >= notaMedia ? imgAprovado : imgReprovado }</td>`;
         linha += '</tr>';
     
         linhas += linha;
@@ -57,7 +57,7 @@ function calculaMedia () {
     let media = valortotal / inputNotaArray.length
 
     tfoot_td.innerHTML = ''
-    tfoot_td.innerHTML += (`<b>${media}</b>`)
+    tfoot_td.innerHTML += (`<b>${media.toFixed(2)}</b>`)
     
     if(media >= notaMedia) {
         aprovado.innerHTML = 'Aprovado'
