@@ -11,5 +11,5 @@ Basta colocar a nota minima que o aluno deve alcançar, exemplos: "5" ou "7".
 
 Adicione o nome da matéria e coloque o numero da nota ao lado.
 Por fim, basta clicar em "Adicionar+", o site ira adicionar a nova matéria com a nota com representações de emoji
-que indicam se o aulo passou ou não, e para finalizar, ira calcular a média de todas as matérias presentes e informar
+que indicam se o aluno passou ou não, e para finalizar, ira calcular a média de todas as matérias presentes e informar
 se esta ou não aprovado.
